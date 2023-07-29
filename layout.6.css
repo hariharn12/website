@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+/* side bar menu*/
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.sidebar li {
+    padding: 1px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color:black;
+    display: block;
+    padding: 16px;
+}
+
+.sidebar a:hover {
+    background-color:blue;
+    color: white;
+}
+/* Adjust this value to match sidebar width */
+.content {
+    margin-left: 200px; 
+    padding: 20px;
+}
+header {
+    background-color:white;
+    color:black;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the search input field */
+search-box {
+    background-color: #fff; 
+    padding: 3px 10px;
+  }
+  
+  .search-box input[type="text"] 
+  {
+    width: 80%;
+    padding: 9px;
+    font-size: 14px;
+  }
+  main {
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    padding-left: 20px;
+}
+
+/* forms section */
+form {
+     
+      margin-left: 20px;
+      padding: 10px;
+      display: flex;
+      flex-wrap: nowrap;            
+    }
+   
+    label,input
+     {    
+      margin-bottom: 0px; 
+      padding:10px;        
+    }
+
+    input[type="text"],
+    input[type="number"]
+    input[type="email"],
+    input[type="tel"] 
+    
+    {
+      width: 200px;
+      margin-left: 20px;
+      padding-left: 20px;
+      border: 1px solid #ccc;
+      border-radius: 1px;
+    } 
+    
+/*additional button menu */
+.addition-button {
+  background-color: blue;
+  color: white;
+  font-size: 20px; 
+  width: 200px;
+  height: 40px;
+  cursor: pointer;
+  float: right;
+  margin:200px;
+  padding-left: 20px;
+
+
+}
+  
